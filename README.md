@@ -60,7 +60,7 @@ git clone https://github.com/GreenWaves-Technologies/pmsis_tests.git
 cd pmsis_tests/quick/hello/
 make clean all run
 ~~~~~
-If you see an *Hellow* from PULP, your setup is fine! ;)
+If you see an *Hello* from PULP, your setup is fine! ;)
 
 ## Additional Information
 ### Source the PULP SDK every time you open a new shell
