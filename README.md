@@ -54,7 +54,7 @@ make clean all run
 If you see an *Helloworld from PULP*, your setup is fine! ;)
 
 ## Additional Information
-### Source the PULP SDK eveytime you open a new shell
+### Source the PULP SDK every time you open a new shell
 To run example code on the PULP Virtual Plaform, you must source the platorm configurafion file and export the RISC-V Compiler path every time a shell is opened.
 ~~~~~shell
 export PULP_RISCV_GCC_TOOLCHAIN=<INSTALL_DIR>
