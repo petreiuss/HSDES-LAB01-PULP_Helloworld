@@ -21,7 +21,7 @@ If you want to use VirtualBox:
 The username in the virtual machine is _pulp-user_, while the password is _pulp_. Check the README file on the Desktop.
 To make the SDK and GVSOC available in a newly opened shell, use the following command:
 ~~~~~shell
-source /pulp/pulp-open.sh
+source /pulp/sourceme.sh
 ~~~~~
 
 ### *Option 2 (alternative)*: Install the PULP-SDK on your Linux machine
