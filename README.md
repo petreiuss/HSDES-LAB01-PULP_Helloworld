@@ -11,10 +11,10 @@ The Virtual Machine including a pre-installed PULP Virtual Platform simulator ca
 The machine can be used in VirtualBox (instructions below) or other hosts (not tested -- you are on your own...).
 
 Instructions for using this in VirtualBox:
-1. Download **pulp-box.ova** from this Google Drive link (5.11 GB)
+1. Download **pulp_box_2021_v2.ova** from this OneDrive [link](https://liveunibo-my.sharepoint.com/:u:/g/personal/f_conti_unibo_it/EU8Gw122r-BImShYmL1GOrMBm60NO9TcYjmc0nmICOwYnw?e=DE4yph) (5.1 GB) 
 2. Install and open **VirtualBox** (https://www.virtualbox.org/)
 3. Go to **File > Import Appliance...**
-4. Select pulp-box.ova as the Appliance to import
+4. Select pulp_box_2021_v2.ova as the Appliance to import
 5. If needed, change the destination folder, then click on Import
 6. In the main VirtualBox window, click on the new virtual machine, then on Start
 
@@ -32,7 +32,7 @@ export PULP_RISCV_GCC_TOOLCHAIN=<INSTALL_DIR>
 
 3. Clone and build the PULP SDK
 ~~~~~shell
-git clone git@github.com:pulp-platform/pulp-sdk.git
+git clone https://github.com/pulp-platform/pulp-sdk.git
 cd pulp-sdk
 source configs/pulp-open.sh
 make build
@@ -45,7 +45,7 @@ After completing the GVSOC setup, you can run helloworld on PULP.
 First you can download some example programs in your preferred working directory.
 ~~~~~shell
 cd <your_work_directory>
-git clone git@github.com:GreenWaves-Technologies/pmsis_tests.git
+git clone https://github.com/GreenWaves-Technologies/pmsis_tests.git
 cd pmsis_tests/quick/hello/
 make clean all run
 ~~~~~
