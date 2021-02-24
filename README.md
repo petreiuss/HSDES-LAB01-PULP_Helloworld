@@ -7,7 +7,7 @@ To install the GVSOC Simulator and setup your environment, you can follow one of
 ## GVSOC Simulator Install Guide
 
 ### Download the PULP Virtual Machine
-The Virtual Machine including a pre-installed PULP SDK and Virtual Platform simulator can be found here [Link]() (5GB).
+The Virtual Machine including a pre-installed PULP SDK and Virtual Platform simulator can be found here [Link](https://github.com/pulp-platform/pulp-sdk) (5GB).
 The machine can be used in VirtualBox (instructions below) or other hosts (not tested - you are on your own...).
 
 If you want to use VirtualBox:
