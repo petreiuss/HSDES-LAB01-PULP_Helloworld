@@ -6,7 +6,7 @@ To install the GVSOC Simulator and setup your environment, you can follow one of
 
 ## GVSOC Simulator Install Guide
 
-### Download the PULP Virtual Machine
+### *Option 1*: Download the PULP Virtual Machine
 The Virtual Machine including a pre-installed PULP SDK and Virtual Platform simulator can be found here [Link](https://github.com/pulp-platform/pulp-sdk) (5GB).
 The machine can be used in VirtualBox (instructions below) or other hosts (not tested - you are on your own...).
 
@@ -18,10 +18,14 @@ If you want to use VirtualBox:
 5. If needed, change the destination folder, then click on Import
 6. In the main VirtualBox window, click on the new virtual machine, then on Start
 
-The username in the virtual machine is _pulp-user_, while the password is _pulp_. Check the README file.
+The username in the virtual machine is _pulp-user_, while the password is _pulp_. Check the README file on the Desktop.
+To make the SDK and GVSOC available in a newly opened shell, use the following command:
+~~~~~shell
+source /pulp/pulp-open.sh
+~~~~~
 
-### Install the PULP-SDK on your Linux machine
-You can follow the instructions [here](https://github.com/pulp-platform/pulp-sdk#getting-started), which has been tested on a fresh Ubuntu 18.04 Bionic Beaver 64-Bit machine. 
+### *Option 2*: Install the PULP-SDK on your Linux machine
+If you prefer to use your own Linux machine, you can follow the instructions [here](https://github.com/pulp-platform/pulp-sdk#getting-started), which have been tested on a fresh Ubuntu 18.04 Bionic Beaver 64-Bit machine. 
 The main steps concern:
 1. Install the compiler. A precompiled version can be taken from [here](https://github.com/pulp-platform/pulp-riscv-gnu-toolchain/releases/tag/v1.0.16).
 
