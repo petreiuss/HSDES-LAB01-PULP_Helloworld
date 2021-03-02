@@ -13,15 +13,16 @@
 #define N 50 // matrix size
 int array[N];
 
+//intialize an array A_ar with size number of elements
 void init_array(int * A_ar, int size)
 {
 	for(int i=0;i<size;i++) 
-		A_ar[i] = i;
+		A_ar[i] = i;	// this can be changed to whatever pattern
 }
 
-// ret
+// return the index of the item==element of the array A_ar with size number of elements
 int find_element(int * A_ar, int size, int element){
-	int find = -1;
+	int find = -1;	// return -1 if the element is not found
 	for(int i=0;i<size;i++){
 		if(A_ar[i]==element){
 			find = i;
@@ -32,8 +33,10 @@ int find_element(int * A_ar, int size, int element){
 
 int main()
 {
-	int element_to_find = 10;
+	int element_to_find = 10;	// you can try to change this value to find within the array!
     init_array(array, N);
+
+    // call the find function
     int found = find_element(array, N, element_to_find);
     if (found == -1)
     	printf("Element not found\n");

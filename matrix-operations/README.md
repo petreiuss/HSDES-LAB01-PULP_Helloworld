@@ -10,7 +10,3 @@ On the contrary, the function returns the minimum value.
 Hints:
 * Represent the matrix as an array NxN 
 
-Questions:
-1. How many iterations?
-2. How many comparisons, additions and load operation for any for loop? 
-Challenge: try to minimize the number of operations!
